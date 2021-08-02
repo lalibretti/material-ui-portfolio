@@ -114,14 +114,14 @@ const Resume = () => {
   return (
     <Box component="header" className={classes.mainContainer}>
       <Typography variant="h4" align="center" className={classes.heading}>
-        Working Experience
+        About Lauren
       </Typography>
       <Box component="div" className={classes.timeLine}>
         <Typography
           variant="h2"
           className={`${classes.timeLineYear} ${classes.timeLineItem}`}
         >
-          2013
+          2020
         </Typography>
         <Box component="div" className={classes.timeLineItem}>
           <Typography
@@ -129,27 +129,24 @@ const Resume = () => {
             align="center"
             className={classes.subHeading}
           >
-            web design
+            Developer
           </Typography>
           <Typography variant="body1" align="center" className={classes.body1}>
-            company name where worked
+            Lighting Designer turned Developer
           </Typography>
           <Typography
             variant="subtitle1"
             align="center"
             className={classes.subtitle1}
           >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quas
-            ipsa, laudantium totam perferendis possimus voluptatibus tenetur.
-            Quasi voluptatibus, nam vitae eaque ad, officia laboriosam
-            repudiandae, rerum necessitatibus nisi mollitia.
+           My passion for coding comes from my experience as a lighting designer, I enjoy utilizing technology to create something aesthetically pleasing and functional. I receive the same excitement and pride when I deploy my code as when I'd see one of my designs on stage. As a creative thinker and maker I'm excited to create functional things that are aesthetically pleasing. You can see that reflected in my work as a lighting designer and developer. Like many people at the beginning of quarantine, I tried making sourdough. After burning my first loaf, I decided to swap out my cooking apron and learn to code. I completed a Fullstack coding bootcamp and now ready for a full time role.
           </Typography>
         </Box>
         <Typography
           variant="h2"
           className={`${classes.timeLineYear} ${classes.timeLineItem}`}
         >
-          2014
+          2021
         </Typography>
         <Box component="div" className={classes.timeLineItem}>
           <Typography
@@ -157,20 +154,17 @@ const Resume = () => {
             align="center"
             className={classes.subHeading}
           >
-            html & css
+            Instructor
           </Typography>
           <Typography variant="body1" align="center" className={classes.body1}>
-            company name where worked
+            Girl Develop It!
           </Typography>
           <Typography
             variant="subtitle1"
             align="center"
             className={classes.subtitle1}
           >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quas
-            ipsa, laudantium totam perferendis possimus voluptatibus tenetur.
-            Quasi voluptatibus, nam vitae eaque ad, officia laboriosam
-            repudiandae, rerum necessitatibus nisi mollitia.
+            Associate instructor for Girl Develop It! Teaching Intro to tech courses.
           </Typography>
         </Box>
         <Typography
@@ -201,34 +195,8 @@ const Resume = () => {
             repudiandae, rerum necessitatibus nisi mollitia.
           </Typography>
         </Box>
-        <Typography
-          variant="h2"
-          className={`${classes.timeLineYear} ${classes.timeLineItem}`}
-        >
-          2017
-        </Typography>
-        <Box component="div" className={classes.timeLineItem}>
-          <Typography
-            variant="h5"
-            align="center"
-            className={classes.subHeading}
-          >
-            Django & React
-          </Typography>
-          <Typography variant="body1" align="center" className={classes.body1}>
-            company name where worked
-          </Typography>
-          <Typography
-            variant="subtitle1"
-            align="center"
-            className={classes.subtitle1}
-          >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quas
-            ipsa, laudantium totam perferendis possimus voluptatibus tenetur.
-            Quasi voluptatibus, nam vitae eaque ad, officia laboriosam
-            repudiandae, rerum necessitatibus nisi mollitia.
-          </Typography>
-        </Box>
+        
+        
       </Box>
     </Box>
   );

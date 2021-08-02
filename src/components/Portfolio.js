@@ -11,9 +11,9 @@ import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
 
 import project1 from "../images/html-css-javascript-lg.jpg";
-import project2 from "../images/html-css-javascript.jpg";
-import project3 from "../images/javascript-fullstack.jpg";
-import project4 from "../images/mern-stack.jpg";
+// import project2 from "../images/html-css-javascript.jpg";
+// import project3 from "../images/javascript-fullstack.jpg";
+// import project4 from "../images/mern-stack.jpg";
 import project5 from "../images/react-redux.jpg";
 import project6 from "../images/react.png";
 
@@ -30,53 +30,25 @@ const useStyles = makeStyles((theme) => ({
 
 const projects = [
   {
-    name: "Project 1",
-    description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis
-    consequatur magni quod nesciunt necessitatibus molestiae non
-    eligendi, magnam est aliquam recusandae? Magnam soluta minus
-    iste alias sunt veritatis nisi dolores!`,
-    image: project1,
+    name: "Search API: Find a Giphy",
+    description: `A giphy search tool. Utilizing the giphy search API to display results from a search query. Styling with tailwind. `,
+    image: project1, link:'https://lalibretti.github.io/search-api/'
   },
   {
-    name: "Project 2",
-    description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis\
-    consequatur magni quod nesciunt necessitatibus molestiae non\
-    eligendi, magnam est aliquam recusandae? Magnam soluta minus\
-    iste alias sunt veritatis nisi dolores!`,
-    image: project2,
+    name: "Task List",
+    description: `React Task List. Styling by Tailwind. Track and create tasks`,
+    image: project5, link: 'https://github.com/lalibretti/task-list'
   },
   {
-    name: "Project 3",
-    description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis\
-    consequatur magni quod nesciunt necessitatibus molestiae non\
-    eligendi, magnam est aliquam recusandae? Magnam soluta minus\
-    iste alias sunt veritatis nisi dolores!`,
-    image: project3,
+    name: "Stock Trading App ",
+    description: `Search for stock value and track value of stocks in a portfolio. Powered by React, Node.js, database connection via sequelize, database created using mySQL`,
+    image: project6, link:"https://fierce-refuge-74060.herokuapp.com/"
   },
   {
-    name: "Project 4",
-    description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis\
-    consequatur magni quod nesciunt necessitatibus molestiae non\
-    eligendi, magnam est aliquam recusandae? Magnam soluta minus\
-    iste alias sunt veritatis nisi dolores!`,
-    image: project4,
-  },
-  {
-    name: "Project 5",
-    description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis\
-    consequatur magni quod nesciunt necessitatibus molestiae non\
-    eligendi, magnam est aliquam recusandae? Magnam soluta minus\
-    iste alias sunt veritatis nisi dolores!`,
-    image: project5,
-  },
-  {
-    name: "Project 6",
-    description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis\
-    consequatur magni quod nesciunt necessitatibus molestiae non\
-    eligendi, magnam est aliquam recusandae? Magnam soluta minus\
-    iste alias sunt veritatis nisi dolores!`,
-    image: project6,
-  },
+    name: "Quiz Creator",
+    description: `Create a question sorted by category, add answers for each question. Powered by React, Node.js, database connection via sequelize, database created using mySQL `,
+    image: project6, link:"https://infinite-tundra-04126.herokuapp.com/"
+  }
 ];
 
 const Portfolio = () => {
@@ -105,11 +77,11 @@ const Portfolio = () => {
                 </CardContent>
               </CardActionArea>
               <CardActions>
-                <Button size="small" color="primary">
+                {/* <Button size="small" color="primary">
                   Share
-                </Button>
+                </Button> */}
                 <Button size="small" color="primary">
-                  Live Demo
+                  Live Demo {project.link}
                 </Button>
               </CardActions>
             </Card>
