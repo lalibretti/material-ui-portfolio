@@ -54,7 +54,7 @@ Server will be available at http://127.0.0.1:3000 in your browser
 
 ![image](https://user-images.githubusercontent.com/19981097/86141330-bf829400-bb13-11ea-9070-ecd62027078f.png)
 
-## Author
+## Original Author
 
 <blockquote>
 Mahmudul alam
