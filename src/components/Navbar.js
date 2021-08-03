@@ -24,18 +24,18 @@ import Footer from "../components/Footer";
 
 const useStyles = makeStyles((theme) => ({
   appbar: {
-    background: "#222",
+    background: "#234",
     margin: 0,
   },
   arrow: {
-    color: "tomato",
+    color: "#fafafa",
   },
   title: {
     color: "tan",
   },
   menuSliderContainer: {
     width: 250,
-    background: "#511",
+    background: "#3f51b5",
     height: "100%",
   },
   avatar: {
@@ -45,13 +45,13 @@ const useStyles = makeStyles((theme) => ({
     height: theme.spacing(13),
   },
   listItem: {
-    color: "tan",
+    color: "#fafafa",
   },
 }));
 
 const menuItems = [
   { listIcon: <Home />, listText: "Home", listPath: "/" },
-  { listIcon: <AssignmentInd />, listText: "Resume", listPath: "/resume" },
+  { listIcon: <AssignmentInd />, listText: "About", listPath: "/about" },
   { listIcon: <Apps />, listText: "Portfolio", listPath: "/portfolio" },
   { listIcon: <ContactMail />, listText: "Contact", listPath: "/contact" },
 ];

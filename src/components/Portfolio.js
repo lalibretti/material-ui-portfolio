@@ -19,7 +19,7 @@ import project6 from "../images/react.png";
 
 const useStyles = makeStyles((theme) => ({
   mainContainer: {
-    background: "#233",
+    background: "#234",
     height: "100%",
   },
   cardContainer: {
@@ -35,19 +35,19 @@ const projects = [
     image: project1, link:'https://lalibretti.github.io/search-api/'
   },
   {
-    name: "Task List",
-    description: `React Task List. Styling by Tailwind. Track and create tasks`,
-    image: project5, link: 'https://github.com/lalibretti/task-list'
-  },
-  {
     name: "Stock Trading App ",
-    description: `Search for stock value and track value of stocks in a portfolio. Powered by React, Node.js, database connection via sequelize, database created using mySQL`,
+    description: `Search for stock value and track value of stocks in a portfolio. Powered by React, Node.js, sequelize, database by mySQL`,
     image: project6, link:"https://fierce-refuge-74060.herokuapp.com/"
   },
   {
     name: "Quiz Creator",
-    description: `Create a question sorted by category, add answers for each question. Powered by React, Node.js, database connection via sequelize, database created using mySQL `,
+    description: `Create a question sorted by category, add answers for each question. Powered by React, Node.js, sequelize, database by mySQL `,
     image: project6, link:"https://infinite-tundra-04126.herokuapp.com/"
+  },
+  {
+    name: "Task List",
+    description: `Create, add/delete and sort tasks in a list. Created with React, styling with Tailwind.`,
+    image: project5, link: 'https://github.com/lalibretti/task-list'
   }
 ];
 

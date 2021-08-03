@@ -5,7 +5,7 @@ import Box from "@material-ui/core/Box";
 
 const useStyles = makeStyles((theme) => ({
   mainContainer: {
-    background: "#233",
+    background: "#234",
   },
   timeLine: {
     position: "relative",
@@ -48,7 +48,7 @@ const useStyles = makeStyles((theme) => ({
       right: "-0.625rem",
       top: "calc(50% - 5px)",
       borderStyle: "solid",
-      borderColor: "tomato tomato transparent transparent",
+      borderColor: "tan tan transparent transparent",
       borderWidth: "0.625rem",
       transform: "rotate(45deg)",
     },
@@ -63,7 +63,7 @@ const useStyles = makeStyles((theme) => ({
       "&:nth-of-type(2n):before": {
         right: "auto",
         left: "-0.625rem",
-        borderColor: "transparent transparent tomato tomato",
+        borderColor: "transparent transparent tan tan",
       },
     },
   },
@@ -73,7 +73,7 @@ const useStyles = makeStyles((theme) => ({
     margin: "0 3rem 0 auto",
     fontSize: "1.8rem",
     color: "#fff",
-    background: "tomato",
+    background: "tan",
     lineHeight: 1,
     padding: "0.5rem 1rem",
     "&:before": {
@@ -92,7 +92,7 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   heading: {
-    color: "tomato",
+    color: "#fff",
     padding: "3rem 0",
     textTransform: "uppercase",
   },
@@ -102,10 +102,10 @@ const useStyles = makeStyles((theme) => ({
     textTransform: "uppercase",
   },
   body1: {
-    color: "tomato",
+    color: "tan",
   },
   subtitle1: {
-    color: "tan",
+    color: "#fff",
   },
 }));
 
@@ -164,14 +164,16 @@ const Resume = () => {
             align="center"
             className={classes.subtitle1}
           >
-            Associate instructor for Girl Develop It! Teaching Intro to tech courses.
+            Associate instructor for Girl Develop It! Teaching Tech 101 courses empowering those wanting to acquire technical skills. 
+            <br />
+           Fall 2021 Courses: Intro to Javascript and Intro Code Editors
           </Typography>
         </Box>
         <Typography
           variant="h2"
           className={`${classes.timeLineYear} ${classes.timeLineItem}`}
         >
-          2015
+          Present
         </Typography>
         <Box component="div" className={classes.timeLineItem}>
           <Typography
@@ -179,24 +181,20 @@ const Resume = () => {
             align="center"
             className={classes.subHeading}
           >
-            Fullstack Javascript
+            Operations Coordinator
           </Typography>
           <Typography variant="body1" align="center" className={classes.body1}>
-            company name where worked
+            Global Impact Investing Network
           </Typography>
           <Typography
             variant="subtitle1"
             align="center"
             className={classes.subtitle1}
           >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quas
-            ipsa, laudantium totam perferendis possimus voluptatibus tenetur.
-            Quasi voluptatibus, nam vitae eaque ad, officia laboriosam
-            repudiandae, rerum necessitatibus nisi mollitia.
+            Assisting with technology operations at nonprofit organization. Scoping technology solutions for staff and developing adoption strategies for organization. 
+            Project Managed and faciltated the addition of donation page to organization's website which created new revenue streams. 
           </Typography>
         </Box>
-        
-        
       </Box>
     </Box>
   );
